@@ -1,0 +1,26 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+terraform.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Lambda
+__pycache__/
+*.py[cod]
+*.zip
+
+# Node
+node_modules/
+build/
+.env
+
+# System
+.DS_Store
+.idea/
+.vscode/
+*.log
